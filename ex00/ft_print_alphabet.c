@@ -6,7 +6,7 @@
 /*   By: lngqose <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/20 13:00:38 by lngqose           #+#    #+#             */
-/*   Updated: 2020/07/21 10:00:56 by lngqose          ###   ########.fr       */
+/*   Updated: 2020/07/21 15:55:58 by lngqose          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,12 @@ void ft_print_aphabet(void)
 		{    
     		ft_putchar(letter); 
    	  		letter++;
-}
+        }
         ft_putchar('\n');
 }
 
 int main(void)
-{
+{`
 	ft_print_aphabet();
 	return (0);
 }
